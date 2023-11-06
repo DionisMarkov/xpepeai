@@ -4,13 +4,12 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section id="section-hero" className="hero">
-      <h1 className="hero__title">Kromatika DEX</h1>
+      <h1 className="hero__title">xPEPEAI DEX</h1>
       <p className="hero__subtitle">
-        Makes DEX trading simple, accessible, and affordable on Ethereum L1 and
-        L2’s.
+      Born in the era of the AI. Next Gen Dex Tradeing APP on Arbitrum Network.
       </p>
       <div className="btn-group">
-        <Link passHref={true} href="https://app.kromatika.finance/#/pool">
+        <Link passHref={true} href="https://app.uniswap.org/tokens/arbitrum/0x7525a9568bc964b0de5b33c6920fad673876b473?chain=arbitrum">
           <motion.a
             className="btn btn-solid"
             target="_blank"
@@ -18,7 +17,7 @@ const Hero = () => {
             whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
             whileTap={{ scale: 0.9 }}
           >
-            Launch Dapp
+            BUY NOW
           </motion.a>
         </Link>
         <Link passHref={true} href="#section-token">
@@ -27,7 +26,7 @@ const Hero = () => {
             whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
             whileTap={{ scale: 0.9 }}
           >
-            Discover $KROM
+            Discover $XPEPE
           </motion.a>
         </Link>
       </div>

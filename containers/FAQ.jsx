@@ -5,84 +5,56 @@ import { Accordion } from "../components";
 
 const faqs = [
   {
-    label: "What are $KROM tokenomics?",
+    label: "What is xPEPE, and what is its primary purpose?",
     content: (
       <>
-        Initially 100M KROM tokens were in existence. Liquidity has been
-        deployed to the Uniswap protocol (original Uniswap LP token is&nbsp;
-        <Link href="https://etherscan.io/tx/0x26c782eb49c42979c259dda936f28b77ae8dbeef16da3ec341d06cb437034ac4">
-          <a target="_blank" rel="noopener noreferrer">
-            burned
-          </a>
-        </Link>
-        ), to Arbitrum, Optimism and Polygon to provide layer 2 liquidity. 20M
-        (20%) is added on Gnosis, a multi-signature wallet.
+   xPEPE is a blockchain utility token designed to streamline fee payments and enhance the user experience within the blockchain ecosystem. Its primary purpose is to provide a predictable and cost-effective means of transaction fee payment, reducing reliance on volatile cryptocurrencies like Ethereum (ETH).
       </>
     ),
   },
   {
-    label: "Is $KROM token a utility token?",
+    label: "How can I acquire xPEPE tokens?",
     content: [
-      "Yes! $KROM is a utility token as it is used to pay the fee for all Kromatika DEX limit orders and end-to-end usage of gasless mode (optional feature, coming very soon).",
-      "You can also use our swap aggregator, for this you only need to hold ETH in your wallet to cover gasfees. Again use normal or pro-mode to fill out your swap and click swap. Your swap is executed in a heartbeat!",
+      "You can acquire xPEPE tokens through various cryptocurrency exchanges and trading platforms. The initial liquidity pool provides a source for obtaining xPEPE tokens, and we also encourage engagement with the community for information on token acquisition.",
     ],
   },
   {
-    label: "How do I use Kromatika DEX?",
+    label: " What sets xPEPE apart from other utility tokens?",
     content: [
-      "Connect your wallet. Depending on whether you wish to use the swap or the limit order feature, you will need $ETH and $KROM in your wallet. The interface is just as straightforward as using Uniswap for example, but with our limit order feature. Use normal or pro-mode to set your limit order and click trade. When the market conditions match your order, Kromatika DEX will execute the trade automatically.",
+      "xPEPE is distinct in its focus on fee payments within the blockchain ecosystem. It provides predictability and stability in transaction costs, making it an attractive choice for users seeking a seamless experience. Additionally, the project's commitment to transparency, community governance, and long-term sustainability sets it apart.",
     ],
   },
   {
-    label: "Why and how much $KROM do I have to pay a fee for limit orders?",
+    label: "How can I participate in the governance of the xPEPE project?",
     content: (
       <>
-        The fee is dependent on the current gas fee. The maximum fee is
-        calculated as follows: base fee * gas fee * protocol fee. As you can
-        see, we don’t take the amount that is being traded into consideration.
-        This offers you the opportunity to trade at a very interesting, fixed
-        price. Fixed, as in not depending on your amount traded. We refer to
-        our&nbsp;
-        <Link href="https://docs.kromatika.finance/fundamentals/how-it-works/maximum-service-fee">
-          <a target="_blank" rel="noopener noreferrer">
-            docs
-          </a>
-        </Link>
-        &nbsp; for more details on the exact calculation.
+To participate in the governance of the xPEPE project, you can hold and stake xPEPE tokens. We are actively developing a decentralized autonomous organization (DAO) that allows token holders to propose and vote on changes, improvements, and initiatives for the project's development.
       </>
     ),
   },
   {
-    label: "Is the KROM token code audited?",
+    label: "What is the vesting period for the locked tokens, and how will they be used?",
     content: [
-      "Yes! KROM token is a non-mintable ERC 20 token audited by OpenZeppelin, MythX and CertiK.",
+      "The locked tokens are subject to a vesting period designed to ensure their responsible use for the long-term benefit of the project. The specifics of the vesting period and the usage of these tokens will be detailed in a dedicated governance proposal, open to community input and voting.",
     ],
   },
   {
-    label: "Do I have to own $KROM tokens to use Kromatika DEX?",
+    label: "How is the xPEPE team incentivized, and what is the commitment to project development?",
     content: [
-      "Yes and no :) If you wish to use only the swap aggregator, you don’t need to own $KROM. However, if you wish to use our limit order feature, you will need $KROM to cover the service fee.",
+      "A portion of the xPEPE token supply is allocated to the core team for incentivization, marketing, and ongoing development. This allocation is aimed at ensuring the dedication and growth of the project, and the team's commitment to xPEPE's success is unwavering.",
     ],
   },
   {
-    label: "Why do I have to pay a fee for limit orders?",
+    label: "What's the long-term vision for xPEPE?",
     content: [
-      "Kromatika requires a fee to cover the cost of the trade processor (ChainLink Keepers). When a trade is processed $KROM is deducted from the protocol user’s balance on the dapp and sent to the trade processor to cover the gas cost. Hence, the $KROM tokens are circulating: DEX Liquidity Pool -> User -> Kromatika Protocol -> DEX Liquidity Pool.",
+      "xPEPE's long-term vision is to become a foundational component of the blockchain ecosystem, offering a reliable and cost-effective means of transaction fee payment. We intend to expand use cases, build partnerships, and remain at the forefront of blockchain innovation and decentralization.",
     ],
   },
   {
-    label: "Is Kromatika code open-source?",
+    label: "How can I stay updated on xPEPE's progress and developments?",
     content: (
       <>
-        Yes! Kromatikas entire codebase is open-sourced and published on&nbsp;
-        <Link href="https://github.com/Kromatika-Finance/">
-          <a target="_blank" rel="noopener noreferrer">
-            Github
-          </a>
-        </Link>
-        &nbsp; under the MIT and GPL-3.0 license. Anybody can see how it was
-        developed, built and who are the code contributors. Developers are
-        encouraged to submit a PR if they are willing to contribute.
+For regular updates on xPEPE's progress, developments, and community engagement, we encourage you to join our official social media channels, follow our blog, and participate in community discussions. Our team remains committed to keeping the community informed and engaged.
       </>
     ),
   },

@@ -14,21 +14,21 @@ const menuItems = [
 	{
 		icon: '',
 		label: 'Blog',
-		to: 'https://blog.kromatika.finance/',
+		to: '',
 		isExternal: true,
 	},
 	{
 		icon: '',
 		label: 'Docs',
-		to: 'https://docs.kromatika.finance/',
+		to: 'https://xpepe-ai.gitbook.io/home/',
 		isExternal: true,
 	},
 ];
 
 const cta = [
 	{
-		label: 'Launch Dapp',
-		to: 'https://app.kromatika.finance/#/pool',
+		label: 'DAPP COMING SOON',
+		to: 'https://app.xpepeai.finance/#/pool',
 		isExternal: true,
 		className: 'btn btn-solid',
 	},

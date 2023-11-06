@@ -6,25 +6,13 @@ import { motion } from "framer-motion";
 import AlchemyLogo from "../components/AlchemyLogo";
 
 const menuItems = [
-  { icon: "", label: "Token", to: "section-token", isExternal: false },
   { icon: "", label: "BUIDL Plan", to: "section-roadmap", isExternal: false },
   { icon: "", label: "About", to: "section-fundamentals", isExternal: false },
   { icon: "", label: "FAQ", to: "section-faq", isExternal: false },
-  {
-    icon: "",
-    label: "Blog",
-    to: "https://blog.kromatika.finance/",
-    isExternal: true,
-  },
 ];
 
 const secondaryLinks = [
-  { label: "Github", to: "https://github.com/Kromatika-Finance/" },
-  { label: "Docs", to: "https://docs.kromatika.finance/" },
-  {
-    label: "Bug Bounty",
-    to: "https://docs.google.com/forms/d/e/1FAIpQLSfdqLrw6xovV95Vr1AbSp5kmcpF41xunCN2VbRXTUj6g6PjIQ/viewform",
-  },
+  { label: "Docs", to: "https://xpepe-ai.gitbook.io/home/" },
   {
     label: "Terms Of Use",
     to: "terms-of-use",
@@ -91,12 +79,11 @@ const Footer = () => {
           </nav>
         </div>
         <Divider type="horizontal" w="188px" />
-        <AlchemyLogo/>
 
         <div className="copyright">
           <h3>Copyright &copy; {currentYear} All rights reserved.</h3>
-          <a href="mailto: contact@kromatika.finance">
-            contact@kromatika.finance
+          <a href="mailto: contact@xpepeai.finance">
+          contact@xpepeai.finance
           </a>
         </div>
       </div>
@@ -146,15 +133,11 @@ const Footer = () => {
         <Logo path="/" />
         <Socials />
         <Divider type="horizontal" w="188px" />
-        <AlchemyLogo/>
 
         <div className="copyright">
           <h3>Copyright &copy; {currentYear} All rights reserved.</h3>
-          <p>
-            Kromatika.Finance is brought to you by{" "}Kromatika DAO & Contributors
-          </p>
           <a href="mailto: contact@kromatika.finance">
-            contact@kromatika.finance
+            contact@xpepeai.finance
           </a>
         </div>
       </div>

@@ -7,13 +7,8 @@ import {
 } from 'react-icons/fa';
 
 const socialItems = [
-	{ href: 'https://discord.gg/U32meU7emP', icon: <FaDiscord /> },
-	{ href: 'https://t.me/kromatika_finance', icon: <FaTelegramPlane /> },
-	{ href: 'https://twitter.com/KromatikaFi', icon: <FaTwitter /> },
-	{
-		href: 'https://www.instagram.com/kromatika.finance/',
-		icon: <FaInstagram />,
-	},
+	{ href: 'https://t.me/xpepecoinai', icon: <FaTelegramPlane /> },
+	{ href: 'https://twitter.com/xPEPEAI', icon: <FaTwitter /> },
 ];
 
 const Socials = ({ isSlider }) => {

@@ -20,14 +20,14 @@ export default function Home() {
 			<Blur>
 				<Hero />
 				<Qualities />
-				<Token />
 				<BUIDLPlan />
 				<HowItWorks />
+				<Token />
 				<FAQ />
 				<Brands />
 			</Blur>
 			<Footer />
-			<Socials isSlider={true} />
+			<Socials isSlider={false} />
 		</div>
 	);
 }

@@ -39,12 +39,12 @@ export default function Seo({ title, description, keywords, author, meta }) {
 }
 
 Seo.defaultProps = {
-	title: 'Kromatika Finance | Next Generation DEX Trading',
+	title: 'xPEPEAI Finance | Next Generation DEX Trading on Arbitrum',
 	description:
-		'Kromatika Finance is the Next Generation DEX Trading, enabling gasless limit trading, liquidity farming',
+		'xPEPEAI Finance is the Next Generation DEX Trading, enabling gasless limit trading, liquidity farming',
 	keywords:
 		'Decentralized Finance, DeFi, DEX, DEX Trading Tools, limit orders, swap, stake, decentralized services, chainlink keepers, gasless limit trading, liquidity farming, uniswap, DAO Governance, blockchain, Ethereum, decentralized applications, Web3 ecosystem, smart contracts, solidity, truffle, hardhat',
-	author: 'Kromatika Finance',
+	author: 'xPEPEAI Finance',
 	lang: `en`,
 	meta: [],
 };
