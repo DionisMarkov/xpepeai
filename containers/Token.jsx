@@ -32,9 +32,9 @@ const Token = () => {
 					className='motion-div'>
 				</motion.div>
 				<div className='token__content'>
-					<h3>What is $XPEPE?</h3>
+					<h3>What is $XPEPEAI?</h3>
 					<p>
-						$KROM is the utility and governance token of the xPEPE protocol. It is
+						$XPEPEAI is the utility and governance token of the $XPEPEAI protocol. It is
 						a non-mintable ERC20 token deployed on Arbitrum with a fixed total
 						supply of 100 million tokens. The tokenomic model of $xPEPE is
 						deflationary by design since the tokens are being &nbsp;
@@ -46,7 +46,7 @@ const Token = () => {
 						<br />
 						<br />
 						$xPEPE is the token that pays the service fee to unlock the limit
-						order feature of Kromatika protocol. This means that by using
+						order feature of XPEPEAI protocol. This means that by using
 						$XPEPE tokens, you not only get access to cost efficient limit
 						orders on the DEX, but you will also get LP fees on every trade
 						thanks to the innovative approach to providing liquidity.
